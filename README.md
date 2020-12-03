@@ -15,7 +15,7 @@ Note: The package will be autoregistered thanks to the Laravel Package Auto-Disc
 ```php
 <?php
 
-namespace App\User;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use ModelEncryptFields\EncryptsAttributes;
@@ -39,13 +39,14 @@ That's it! Now you can automatically encrypt/decrypt the fields specified in the
 ### Examples:
 
 Auto-Encrypt the field `name`:
+
 ```
-$user->name = "John Doe"; 
+$user->name = "John Doe";
 $user->save();
 ```
 
 Auto-Decrypt the field `name`:
+
 ```
 echo "Hello, " . $user->name;
 ```
-
