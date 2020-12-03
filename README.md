@@ -33,3 +33,19 @@ class User extends Model
 }
 
 ```
+
+That's it! Now you can automatically encrypt/decrypt the fields specified in the `$encrypts` property in your model.
+
+### Examples:
+
+Auto-Encrypt the field `name`:
+```
+$user->name = "John Doe"; 
+$user->save();
+```
+
+Auto-Decrypt the field `name`:
+```
+echo "Hello, " . $user->name;
+```
+
