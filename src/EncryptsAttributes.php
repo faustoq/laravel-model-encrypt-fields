@@ -6,8 +6,6 @@ use \Illuminate\Support\Facades\Crypt;
 
 trait EncryptsAttributes
 {
-    private $encrypt;
-
     public function attributesToArray()
     {
         $attributes = parent::attributesToArray();
