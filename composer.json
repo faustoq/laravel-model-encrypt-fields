@@ -13,8 +13,7 @@
     "authors": [
         {
             "name": "Fausto Quaggia",
-            "email": "fausto.quaggia@gmail.com",
-            "role": "Mainteiner"
+            "email": "fausto.quaggia@gmail.com"
         }
     ],
     "require": {
@@ -27,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Faustoq\\ModelEncryptFields\\": "src"
+            "ModelEncryptFields\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Faustoq\\ModelEncryptFields\\Tests\\": "tests"
+            "ModelEncryptFields\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Faustoq\\ModelEncryptFields\\ServiceProvider"
+                "ModelEncryptFields\\ServiceProvider"
             ]
         }
     }

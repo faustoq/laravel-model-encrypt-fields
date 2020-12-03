@@ -1,6 +1,6 @@
 <?php
 
-namespace Faustoq\ModelEncryptFields;
+namespace ModelEncryptFields;
 
 use \Illuminate\Support\Facades\Crypt;
 

@@ -18,7 +18,7 @@ Note: The package will be autoregistered thanks to the Laravel Package Auto-Disc
 namespace App\User;
 
 use Illuminate\Database\Eloquent\Model;
-use Faustoq\ModelEncryptFields\EncryptsAttributes;
+use ModelEncryptFields\EncryptsAttributes;
 
 class User extends Model
 {
