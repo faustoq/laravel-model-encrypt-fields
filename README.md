@@ -10,6 +10,12 @@ composer require faustoq/laravel-model-encrypt-fields
 
 Note: The package will be autoregistered thanks to the Laravel Package Auto-Discovery.
 
+Publish the configuration file:
+
+```
+php artisan vendor:publish --provider="ModelEncryptFields\ServiceProvider"
+```
+
 ## Usage
 
 ```php
